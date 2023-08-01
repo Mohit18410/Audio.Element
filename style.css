@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(138, 43, 226);
+  text-align: center;
+  overflow: hidden;
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  cursor: pointer;
+  width: 180px;
+  height: 100px;
+  background-color: rgb(139, 0, 139);
+  text-transform: uppercase;
+  border: none;
+  margin: 10px;
+  color: rgb(240, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:hover {
+  background-color: rgb(128, 0, 183);
+}
